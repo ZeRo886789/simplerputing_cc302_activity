@@ -52,18 +52,18 @@ class _MainScreenState extends State<MainScreen> {
         height: 65,
         destinations: const [
           NavigationDestination(
-            icon: Icon(Icons.article),
-            selectedIcon: Icon(Icons.article_outlined),
+            icon: Icon(Icons.article, color: Colors.blue),
+            selectedIcon: Icon(Icons.article_outlined, color: Colors.blue),
             label: 'Sample',
           ),
           NavigationDestination(
-            icon: Icon(Icons.home),
-            selectedIcon: Icon(Icons.home_outlined),
+            icon: Icon(Icons.home, color: Colors.blue),
+            selectedIcon: Icon(Icons.home_outlined, color: Colors.blue),
             label: 'Home',
           ),
           NavigationDestination(
-            icon: Icon(Icons.person),
-            selectedIcon: Icon(Icons.person_outlined),
+            icon: Icon(Icons.person, color: Colors.blue),
+            selectedIcon: Icon(Icons.person_outlined, color: Colors.blue),
             label: 'Profile',
           ),
         ],

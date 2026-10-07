@@ -9,7 +9,7 @@ class ProfilePage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.person, size: 80),
+          Icon(Icons.person, size: 80, color: Colors.blue),
 
           SizedBox(height: 20),
           Text(

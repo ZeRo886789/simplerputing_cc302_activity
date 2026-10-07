@@ -9,7 +9,7 @@ class SamplePage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.article, size: 80),
+          Icon(Icons.article, size: 80, color: Colors.blue),
           SizedBox(height: 20),
           Text(
             'Sample Page',

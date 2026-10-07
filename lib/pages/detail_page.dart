@@ -17,7 +17,7 @@ class DetailPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.info_outline),
+            const Icon(Icons.info_outline, color: Colors.blue),
             const SizedBox(height: 20),
             const Text(
               'Detail Page',

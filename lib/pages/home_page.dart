@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(Icons.home, size: 80),
+          const Icon(Icons.home, size: 80, color: Colors.blue),
           const SizedBox(height: 20),
 
           const Text(
